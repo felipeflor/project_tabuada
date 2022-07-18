@@ -6,7 +6,7 @@ namespace Tabuada
     {
         static void Main(string[] args)
         {
-            int number, answer;
+            int number;
             Console.WriteLine("Hello, please type number: ");
             number = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Multiplicate table of the number: " + number);
